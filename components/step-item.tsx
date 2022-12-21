@@ -1,8 +1,6 @@
-export type StepItemProps = {
-  title: string;
-  description: string;
-  icon: JSX.Element;
-};
+import { StepItemTypes } from "./types";
+
+type StepItemProps = StepItemTypes;
 
 export default function StepItem({ description, title, icon }: StepItemProps) {
   return (

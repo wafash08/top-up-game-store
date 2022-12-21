@@ -1,5 +1,10 @@
 import StepList from "@/components/step-list";
 
 export default function Home() {
-  return <StepList />;
+  return (
+    <>
+      <h1>Navbar</h1>
+      <StepList />
+    </>
+  );
 }
