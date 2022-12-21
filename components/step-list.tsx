@@ -1,9 +1,10 @@
 import FillIcon from "@/components/icons/fill-icon";
 import StartIcon from "@/components/icons/start-icon";
 import WinnerIcon from "@/components/icons/winner-icon";
-import StepItem, { StepItemProps } from "@/components/step-item";
+import StepItem from "@/components/step-item";
+import { StepItemTypes } from "./types";
 
-export const STEP_ITEMS: StepItemProps[] = [
+export const STEP_ITEMS: StepItemTypes[] = [
   {
     description: "Pilih salah satu game yang ingin kamu top up",
     title: "1. Start",

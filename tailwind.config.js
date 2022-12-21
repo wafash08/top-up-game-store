@@ -10,6 +10,12 @@ module.exports = {
       fontFamily: {
         poppins: ["var(--font-poppins)", ...fontFamily.sans],
       },
+      colors: {
+        brand: {
+          gray: "#7E8CAC",
+          blue: "#0C145A",
+        },
+      },
       container: {
         center: true,
         padding: "1rem",
