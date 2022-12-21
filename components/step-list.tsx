@@ -3,7 +3,7 @@ import StartIcon from "@/components/icons/start-icon";
 import WinnerIcon from "@/components/icons/winner-icon";
 import StepItem, { StepItemProps } from "@/components/step-item";
 
-const STEP_ITEMS: StepItemProps[] = [
+export const STEP_ITEMS: StepItemProps[] = [
   {
     description: "Pilih salah satu game yang ingin kamu top up",
     title: "1. Start",
