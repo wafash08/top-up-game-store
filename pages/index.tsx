@@ -1,10 +1,13 @@
-import StepList from "@/components/step-list";
+import Navbar from "@/components/navbar";
+// import StepList from "@/components/step-list";
 
 export default function Home() {
   return (
     <>
-      <h1>Navbar</h1>
-      <StepList />
+      <header className="py-10">
+        <Navbar />
+      </header>
+      {/* <StepList /> */}
     </>
   );
 }
