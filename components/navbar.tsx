@@ -49,11 +49,11 @@ export function NavItem({ href, label }: NavItemProps) {
 
 export default function Navbar() {
   return (
-    <div className="container flex items-center justify-between">
+    <div className="layout flex items-center justify-between">
       <Link href="/">
         <Logo />
       </Link>
-      <div className="border-debug hidden lg:flex lg:items-center lg:gap-10">
+      <div className="hidden lg:flex lg:items-center lg:gap-10">
         <ul
           role="list"
           aria-label="Navigation Menu"

@@ -1,5 +1,5 @@
 import Navbar from "@/components/navbar";
-// import StepList from "@/components/step-list";
+import Banner from "@/components/banner";
 
 export default function Home() {
   return (
@@ -7,7 +7,11 @@ export default function Home() {
       <header className="py-10">
         <Navbar />
       </header>
-      {/* <StepList /> */}
+      <main className="py-14">
+        <div className="layout">
+          <Banner />
+        </div>
+      </main>
     </>
   );
 }
