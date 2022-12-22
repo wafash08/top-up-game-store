@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Button from "./button";
 import Logo from "./logo";
 
 export const NAV_ITEMS = [
@@ -48,11 +49,11 @@ export function NavItem({ href, label }: NavItemProps) {
 
 export default function Navbar() {
   return (
-    <div className="border-debug container flex items-center justify-between">
+    <div className="container flex items-center justify-between">
       <Link href="/">
         <Logo />
       </Link>
-      <div className="hidden lg:flex lg:items-center lg:gap-10">
+      <div className="border-debug hidden lg:flex lg:items-center lg:gap-10">
         <ul
           role="list"
           aria-label="Navigation Menu"
@@ -62,7 +63,7 @@ export default function Navbar() {
             <NavItem key={label} href={href} label={label} />
           ))}
         </ul>
-        <h1>button</h1>
+        <Button color="gray">Sign In</Button>
       </div>
     </div>
   );
