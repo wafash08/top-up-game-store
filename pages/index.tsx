@@ -1,5 +1,9 @@
 import Navbar from "@/components/navbar";
 import Banner from "@/components/banner";
+import StepList from "@/components/step-list";
+
+// TODO
+// 1. bikin dan test featured games component
 
 export default function Home() {
   return (
@@ -10,6 +14,12 @@ export default function Home() {
       <main className="py-14">
         <div className="layout">
           <Banner />
+          <div className="mt-24">
+            <h2 className="mx-auto mb-8 text-center font-poppins text-[32px] font-bold text-brand-blue">
+              It’s Really That <br /> Easy to Win the Game
+            </h2>
+            <StepList />
+          </div>
         </div>
       </main>
     </>

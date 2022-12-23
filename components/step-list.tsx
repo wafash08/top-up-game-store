@@ -27,7 +27,7 @@ export default function StepList() {
     <ul
       role="list"
       aria-label="Langkah-langkah untuk melakukan top up"
-      className="border-debug container grid gap-5 md:grid-cols-2 md:gap-12 lg:grid-cols-3"
+      className="container grid gap-5 md:grid-cols-2 md:gap-12 lg:grid-cols-3"
     >
       {STEP_ITEMS.map(({ description, icon, title }) => (
         <StepItem
