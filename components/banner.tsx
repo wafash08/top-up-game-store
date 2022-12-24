@@ -35,6 +35,7 @@ export default function Banner() {
             width={490}
             height={484}
             style={{ width: "100%", height: "auto" }}
+            priority={true}
           />
           <div className="absolute -left-4 top-16 flex flex-col gap-4 rounded-2xl bg-white py-7 px-7 shadow-md">
             <div className="flex items-center gap-3">
