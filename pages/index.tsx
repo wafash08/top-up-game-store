@@ -3,9 +3,7 @@ import Banner from "@/components/banner";
 import StepList from "@/components/step-list";
 import FeaturedGameList from "@/components/featured-game-list";
 import StatList from "@/components/stat-list";
-
-// TODO
-// 1. bikin dan test featured games component
+import Story from "@/components/story";
 
 export default function Home() {
   return (
@@ -30,6 +28,9 @@ export default function Home() {
           </section>
           <section className="mt-24">
             <StatList />
+          </section>
+          <section className="mt-24">
+            <Story />
           </section>
         </div>
       </main>
