@@ -2,6 +2,7 @@ import Navbar from "@/components/navbar";
 import Banner from "@/components/banner";
 import StepList from "@/components/step-list";
 import FeaturedGameList from "@/components/featured-game-list";
+import StatList from "@/components/stat-list";
 
 // TODO
 // 1. bikin dan test featured games component
@@ -26,6 +27,9 @@ export default function Home() {
               Our Featured <br /> Games This Year
             </h2>
             <FeaturedGameList />
+          </section>
+          <section className="mt-24">
+            <StatList />
           </section>
         </div>
       </main>
