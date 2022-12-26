@@ -1,8 +1,8 @@
 import clsx from "clsx";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import Button from "./button";
-import Logo from "./logo";
+import Button from "../button";
+import Logo from "../logo";
 
 export const NAV_ITEMS = [
   { label: "Home", href: "/" },

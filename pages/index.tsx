@@ -1,16 +1,13 @@
-import Navbar from "@/components/navbar";
 import Banner from "@/components/banner";
 import StepList from "@/components/step-list";
 import FeaturedGameList from "@/components/featured-game-list";
 import StatList from "@/components/stat-list";
 import Story from "@/components/story";
+import Layout from "@/components/layout";
 
 export default function Home() {
   return (
-    <>
-      <header className="py-10">
-        <Navbar />
-      </header>
+    <Layout>
       <main className="py-14">
         <div className="layout">
           <Banner />
@@ -34,6 +31,6 @@ export default function Home() {
           </section>
         </div>
       </main>
-    </>
+    </Layout>
   );
 }
