@@ -5,6 +5,8 @@ import StatList from "@/components/stat-list";
 import Story from "@/components/story";
 import Layout from "@/components/layout";
 
+// tambahkan animasi menggunakan framer motion
+
 export default function Home() {
   return (
     <Layout>
