@@ -18,14 +18,13 @@ export default function FeaturedGameItem({
 }: FeaturedGameItemProps) {
   return (
     <li className="group relative h-[270px] w-[205px] flex-shrink-0 overflow-hidden rounded-3xl transition-all hover:border-4 hover:border-brand-blue">
-      <Link href={"detail/game"}>
+      <Link href={"game/gameSlug"}>
         <div className="transition-all group-hover:blur-2xl">
           <Image
             src={`/images/${thumbnail}.png`}
             alt="thumbnail"
             width={205}
             height={270}
-            style={{ width: "100%", height: "auto", objectFit: "cover" }}
           />
         </div>
         <div className="absolute inset-0 rounded-3xl p-6 opacity-0 group-hover:border-[12px] group-hover:border-white group-hover:opacity-100">

@@ -98,8 +98,8 @@ export function FooterList({
 
 export default function Footer() {
   return (
-    <div className="layout grid lg:grid-cols-5 lg:gap-20">
-      <div className="col-span-2 grid gap-8">
+    <div className="layout grid grid-cols-1 gap-8 lg:grid-cols-5 lg:gap-20">
+      <div className="grid gap-8 lg:col-span-2">
         <Link href="/">
           <Logo />
         </Link>
