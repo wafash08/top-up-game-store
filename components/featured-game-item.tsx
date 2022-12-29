@@ -22,9 +22,13 @@ export default function FeaturedGameItem({
         <div className="transition-all group-hover:blur-2xl">
           <Image
             src={`/images/${thumbnail}.png`}
-            alt="thumbnail"
+            alt={name}
             width={205}
             height={270}
+            style={{
+              width: "205px",
+              height: "270px",
+            }}
           />
         </div>
         <div className="absolute inset-0 rounded-3xl p-6 opacity-0 group-hover:border-[12px] group-hover:border-white group-hover:opacity-100">

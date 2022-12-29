@@ -1,6 +1,9 @@
 import Layout from "@/components/layout";
 import Image from "next/image";
 
+// TODO
+// BUAT SETIAP NOMINAL ITEM MENJADI KOMPONEN TERSENDIRI
+
 export default function GameSlugPage() {
   return (
     <Layout>
@@ -45,7 +48,7 @@ export default function GameSlugPage() {
                 type="text"
                 name="verifyId"
                 id="verifyId"
-                className="max-w-md rounded-full border border-brand-blue px-6 py-2 text-lg text-brand-blue placeholder:text-[#CCD0DD] focus:outline-1 focus:outline-brand-blue"
+                className="rounded-full border border-brand-blue px-6 py-2 text-lg text-brand-blue placeholder:text-[#CCD0DD] focus:outline-1 focus:outline-brand-blue lg:w-1/3"
                 placeholder="Enter Your ID"
               />
             </div>
