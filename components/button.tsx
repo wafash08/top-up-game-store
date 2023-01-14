@@ -7,6 +7,7 @@ interface ButtonBaseProps {
   fullwidth?: boolean;
   /** The base colour of the button. */
   color?: ButtonColors;
+  className?: string;
 }
 
 type ButtonProps = ButtonBaseProps &
@@ -24,13 +25,15 @@ export default function Button({
   children,
   fullwidth = false,
   color = "blue",
+  className,
 }: ButtonProps) {
   return (
     <button
       className={clsx(
         getButtonColor(color),
         fullwidth && "w-full",
-        "inline-block rounded-full py-3 px-8 text-center font-poppins text-lg font-medium"
+        "inline-block rounded-full py-3 px-8 text-center font-poppins text-lg font-medium",
+        className
       )}
       type="button"
     >
